@@ -1,7 +1,7 @@
 #!/bin/sh
 # V2Ray new configuration
-cat <<-EOF > /etc/v2ray/config.json
+cat <<-EOF > /etc/vty/config.json
 $CONFIG_JSON
 EOF
-# Run V2Ray
-/usr/bin/v2ray/v2ray -config=/etc/v2ray/config.json
+# Run VTy
+/usr/bin/vty/v2ray -config=/etc/vty/config.json
