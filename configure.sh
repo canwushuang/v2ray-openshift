@@ -5,4 +5,3 @@ $CONFIG_JSON
 EOF
 # Run VTy
 /usr/bin/vty/vty -config=/etc/vty/config.json
-date -R
