@@ -1,5 +1,5 @@
 FROM alpine:3.5
-ENV TZ 'Asia/Shanghai'
+ENV TZ=Asia/Shanghai
 ENV CONFIG_JSON=none
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && curl -L -H "Cache-Control: no-cache" -o /vty.zip https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip \
